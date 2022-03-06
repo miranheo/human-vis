@@ -225,7 +225,28 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+				In real-world applications for video editing, humans are arguably 
+				the most important objects. When editing videos
+				of humans, the efficient tracking of fine-grained masks and
+				body joints is the fundamental requirement. In this paper,
+				we propose a simple and efficient system for jointly tracking
+				pose and segmenting high-quality masks for all humans in
+				the video. We design a pipeline that globally tracks pose
+				and locally segments fine-grained masks. Specifically, CenterTrack
+				is first employed to track human poses by viewing
+				the whole scene, and then the proposed local segmentation
+				network leverages the pose information as a powerful
+				query to carry out high-quality segmentation. Furthermore,
+				we adopt a highly light-weight MLP-Mixer layer
+				within the segmentation network that can efficiently propagate
+				the query pose throughout the region of interest with
+				minimal overhead. For the evaluation, we collect a new
+				benchmark called KineMask which includes various appearances
+				and actions. The experimental results demonstrate
+				that our method has superior fine-grained segmentation
+				performance. Moreover, it runs at 33 fps, achieving a
+				great balance of speed and accuracy compared to the prevailing
+				online Video Instance Segmentation methods.
 			</td>
 		</tr>
 	</table>
